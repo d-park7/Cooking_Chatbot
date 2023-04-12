@@ -78,26 +78,29 @@ def scrape_url():
     def replace_esc_seq(url_text):
         # Takes out any escape sequences in the beginning or end of string
 
-        for line in url_text:
+        #for line in url_text:
             
-            print("This is the line:", line)
-            line = re.sub(r'[/+=&.?!,:;()©\“”’\'\-\d]', '', line)
+        #    print("This is the line:", line)
+        #    line = re.sub(r'[/+=&.?!,:;()©\“”’\'\-\d]', '', line)
 
-        with open('log.txt', 'a', encoding='utf-8') as f:
-            for url in url_text:
-                f.write(url + '\n')
-       # new_list = [x.strip() for x in url_text]
+        #with open('log.txt', 'a', encoding='utf-8') as f:
+        #    for url in url_text:
+        #       f.write(url + '\n')
+        new_list = [x.strip() for x in url_text]
 
         # Remove empty strings from list
-        #while '' in new_list:
-        #    new_list.remove('')
+        while '' in new_list:
+            new_list.remove('')
 
         # Replace newlines and tabs
-        #new_list = [x.replace('\n', '') for x in new_list]
-        #new_list = [x.replace('\t', '') for x in new_list]
+        new_list = [x.replace('\n', '') for x in new_list]
+        new_list = [x.replace('\t', '') for x in new_list]
 
-        #return new_list
-        return url_text
+        for index, line in enumerate(new_list):
+            new_list[index] = re.sub(r'[\>\<\[\]|\-\_\\\/\+\=&\?!\(\),:;©`\“\”\’\'\-\d]', '', line)
+
+        return new_list
+        #return url_text
 
     file_name = "URL " + str(num) + ".txt"
 
@@ -195,9 +198,9 @@ if __name__ == '__main__':
     link_to_crawl = "https://www.google.com/search?q=recipe&sxsrf=APwXEdcDmMo3SWbYW8v0aiOiORGWqkpsoQ%3A1681266908574&ei=3Bg2ZLSwIpK5qtsPjKmG2Ao&oq=recipie&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgCMgQIIxAnMgoIABCABBAUEIcCMgcIABCABBAKMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoICAAQigUQkQI6EAgAEIAEEBQQhwIQsQMQgwE6CAgAEIAEELEDSgQIQRgAUMUDWKQFYIcfaAFwAXgAgAFTiAGZAZIBATKYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp"
 
     # Functions to web crawl, create files, and print out term frequencies of each file
-    #web_crawler(link_to_crawl)
-    #remove_dupes()
-    #get_url_text()
+    web_crawler(link_to_crawl)
+    remove_dupes()
+    get_url_text()
     scrape_url()
     print_file_terms()
 

@@ -1,6 +1,7 @@
-# URL text files
+# Text files
 URL*
 url*
+log*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

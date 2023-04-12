@@ -7,7 +7,7 @@ from google.cloud import dialogflow
 
 def list_intents(project_id):
     intents_client = dialogflow.IntentsClient()
-    parent = dialogflow.AgentsClient.agent_path('hlt-chatbot-382922')
+    parent = dialogflow.AgentsClient.agent_path('chatbot-project-382920')
 
 
     intents = intents_client.list_intents(request={"parent": parent})
@@ -15,4 +15,4 @@ def list_intents(project_id):
         print(f"intent: {intent}")
 
 if __name__ == '__main__':
-    list_intents('hlt-chatbot-382922')
+    list_intents('chatbot-project-382920')

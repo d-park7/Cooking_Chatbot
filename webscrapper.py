@@ -192,17 +192,10 @@ def web_crawler(link):
     soup = BeautifulSoup(data, features="lxml")
 
     # Writes urls to a urls.txt file
+    # Somewhere here write condition to exclude any posts with [MOD PSA]
     with open('urls.txt', 'w') as f:
         for link in soup.find_all('a', class_='bylink comments may-blank'):
             link_str = str(link.get('href'))
-            # if 'Recipe' in link_str or 'recipe' in link_str:
-            #     if link_str.startswith('/url?q='):
-            #         link_str = link_str[7:]
-            #     if '&' in link_str:
-            #         i = link_str.find('&')
-            #         link_str = link_str[:i]
-            #     if link_str.startswith('http') and 'google' not in link_str:
-            #         f.write(link_str + '\n')
             f.write(link_str + '\n')
 
 
@@ -214,18 +207,20 @@ def find_op_comments_from_url(unique_links_to_crawl):
             data = reqs.text
             soup = BeautifulSoup(data, features='lxml')
             
-            # finds the op
+
             main_post = soup.find('div', id='siteTable')
             op = main_post.find('a', attrs={'class': 'author'}).text
-
-            users = soup.find_all('p', class_='tagline') 
-            for user in users:
-                children = user.findChildren('a')
-                for child in children:
-                    print('child: ', child.text)
-
             print('op: ', op)
+            
+            comment_area = soup.find('div', attrs={'class':'commentarea'})
 
+            comments = comment_area.find_all('div', attrs={'class':'entry unvoted'})
+            for comment in comments:
+                comment = str(comment)
+                index = comment.find(op)
+                if index != -1:
+                    print('comment: ', comment)
+                    
 
 if __name__ == '__main__':
     link_to_crawl = 'https://old.reddit.com/r/recipes/'

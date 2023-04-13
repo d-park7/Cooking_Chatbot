@@ -9,6 +9,7 @@ import os.path
 import re
 import urllib.request
 import requests
+import json
 from bs4 import BeautifulSoup
 from nltk import word_tokenize
 from nltk.tokenize import sent_tokenize
@@ -205,7 +206,7 @@ if __name__ == '__main__':
     print_file_terms()
 
     # 10 important terms from all files
-    sig_terms = ['mario', 'nintendo', 'game', 'original', 'princess', 'switch', 'character', 'world', 'luigi', 'mushroom']
+    sig_terms = ['recipe', 'chicken', 'cheese', 'shrimp', 'food', 'soup', 'beef', 'dinner', 'chocolate', 'bread']
 
     # Creating the knowledge base
     knowledge_base = build_kb(sig_terms)
@@ -213,6 +214,9 @@ if __name__ == '__main__':
     # Printing keys of knowledge base
     print("")
     print(knowledge_base.keys())
+
+    with open('knowledgebase.txt', 'w') as file:
+        file.write(json.dumps(knowledge_base))
 
     # Commented out because the dictionary is HUGE
     #for x, y in knowledge_base.items():

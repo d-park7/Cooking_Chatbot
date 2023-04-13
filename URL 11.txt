@@ -1,105 +1,103 @@
-globeenvironment environment"ksprod" application"simplyrecipes" dataCenter"uswest" Pinterest Pins Facebook Open Graph Tags Twitter Cards button button SimplyRecipes.com saved recipes Recipes Breakfast Lunch Dinner Dessert Drinks Snacks  Appetizers Holidays  Seasonal Recipes Recipes by Diet Recipes by Method Recipes by Ingredients Recipes by Time  Ease Recipes by Cuisine View all Quick  Easy Quick Dinners Easy  Healthy Quick Vegetarian Easy Pastas Easy Chicken View all In the Kitchen An AZ Guide to Cooking Terms and Definitions Meal Plans Recipe Collections Tips  Techniques Ingredient Guides Cuisine Guides View all Table Talk Most Recent News  Trends Voices View all Holidays  Seasons The Microwave PowerUp Celebrating Jollof Rice and Its Journey Across the Atlantic Vegan for Everyone Soup Recipes View all About us Search Search Close search saved recipes About Simply Recipes Expand Who We Are Our History Recipe Development  Testing Diversity  Inclusion Comments Product Reviews Meet the Team About Dotdash Meredith Contact Us Work With Us Write for Us Advertise With Us Who We Are Simply Recipes is here to help you cook delicious meals with less stress and more joy.
-We offer recipes and cooking advice  for home cooks by home cooks .
-Helping create kitchen wins is what were all about.
-Simply Recipes was founded in  by Elise Bauer as a home cooking blog to record her favorite family recipes.
-Today Simply Recipes has grown into a trusted resource for home cooks with more than  tested recipes guides and meal plans drawing over  million readers each month from around the world.
-Were supported by a diverse group of recipe developers food writers recipe and product testers photographers and other creative professionals.
-Our History Elise Bauer was a busy Silicon Valley executive when she became sick with a flu that wouldnt go away in .
-In  Elise moved home with her parents and lived with them for several years recovering from chronic fatigue and documenting her parents cooking on Simply Recipes.
-Heres more of that story .
-Over the years what started as a small blog grew to reach millions of readers every month In  Simply Recipes was acquired by Dotdash Meredith a New Yorkbased media company.
-Recipe Development  Testing Our recipes primarily use fresh unprocessed ingredients but we also believe there is a time and a place for canned frozen and other prepared ingredients.
-We believe in a diet that includes a wide variety of foods real butter and cream extra virgin olive oil eggs lots of fruits and vegetables and protein from meat fish beans and cheese.
-Plus cake for dessert.
-There are three things we think about when deciding if a recipe is good enough to go on Simply Recipes First does it work  Recipes need to be easy to follow and provide reliable results every time.
-Second is it delicious  Does the dish make us smile inside and out Do we want to eat the whole batch by ourselves Third is it worth the effort  Do we want to make it again and again and again To make sure each of these standards is met we start by working with expert recipe developers  — people with the experience and knowledge to not only develop a good recipe in their own kitchens but to make sure that recipe works in yours.
-Next we thoroughly review and edit every recipe inhouse line by line.
-Finally each new recipe is run by our team of recipe testers working in home kitchens with the same pots pans and tools that you use in yours.
-Only after all this is the recipe shared on Simply Recipes.
-Additionally at Simply Recipes we aspire to provide the highest quality content produced by humans for humans.
-It is against our guidelines to publish automatically generated content using AI artificial intelligence writing tools such as ChatGPT.
-Have feedback for us Wed love to hear from you Please contact the team at  contact@simplyrecipes.com .
-Diversity  Inclusion Everyone is welcome at the Simply Recipes table people of all races religions genders sexual orientations ages backgrounds and abilities.
-We strive to be a resource for every home cook and we consciously work to make this inclusion felt in every part of the site from the individuals we hire to the recipes we share.
-Were not perfect but we hope to get more right than we get wrong.
-For a full look at our  Diversity  Inclusion commitments and a recap of our commitments and progress from previous years please see  HERE .
-Procedure for Reporting a Concern If you have concerns about cultural appropriation bias or insensitivity in any of our articles please let us know via  contact@simplyrecipes.com .
-Your concern will be reviewed by a member of our editorial team and by a member of our AntiBias Review Board.
-Once the best course of action is determined we send a reply to your email letting you know how the matter is being addressed.
-Comments We review and approve every comment left on the site and generally respond to questions within  to  days.
-When leaving comments we ask that you think of Simply Recipes as our home.
-Constructive feedback is always welcome but rude mean disrespectful or spammy comments are not welcome and will not be approved.
-Product Reviews Our product reviews and recommendations are independent and based on extensive research and product testing.
-If you visit links within our content we may receive commissions from your purchases.
-Learn more about our review process  here .
-Meet the Team Emma has over  years of experience creating food and cooking content for both web and print and another  years within the print publishing industry.
-She joined the Simply Recipes team in  as Managing Editor and is the former Recipe Editor for Kitchn.
-In her career she has been an editor a writer a recipe developer a photographer and a video producer.
-Emma is the author of three books on homebrewing True Brews Brew Better Beer and Modern Cider and collaborated on the James Beard awardwinning The Kitchn Cookbook.
-Her recipes and writing have been published in Kitchn Fine Cooking Chicago Tribune and elsewhere.
-Read more Emma Christensen Associate General Manager Read more Ariel Knutson Associate Editorial Director News Food  Drink Sara began contributing to Simply Recipes in .
-Shes been writing recipes since  teaching cooking classes since  and giving foraging presentations since .
-She was the founding food editor for the pop culture Paste Magazine.
-Read more Sara Bir Senior Editor Brooke is the Senior Social Media Editor at Simply Recipes where she manages brand growth across Facebook Instagram Pinterest and Flipboard as well as big picture strategy and influencer marketing.
-Brooke spent two years as the Social Media Editor at The Spruce Eats as well as two years at Real Simple prior to joining Simply Recipes in .
-She has worked as a writer print and digital editor social media manager and production assistant at various other brands including SHAPE Fitness Magazine BRIDES Thrillist and Parents.
-Read more Brooke Schuldt Senior Social Media Manager Myo trained under James Beard Award winner Chef Michael Anthony while working at his Michelinstarred restaurant Gramercy Tavern and Untitled at the Whitney Museum.
-Her recipes writing and food styling can be found on King Arthur Baking Food Network Delish Food Good Housekeeping Institute and LIVEKINDLY.
-She collaborated on the cookbook Delish Vegan Dinners and the production of Food Networks Worst Cooks in America Worst Bakers in America Valeries Home Cooking Trishas Southern Kitchen and Girl Meets Farm.
-She hosted cooking lessons on Food Network Kitchens app.
-When Myo became a mom to three boys her cooking shifted to the same meal prepworthy and nourishing dishes that she grew up eating as a Korean Paraguayan.
-Read more Myo Quinn Senior Editor News  Features Laurel has been a recipe developer and food writer for over  years.
-She has written for The Spruce Eats Food Los Angeles Magazine EatingWell Eaten Magazine Serious Eats Insider Paste Magazine and more.
-She is the author of four cookbooks including the bestseller The Instant Pot Electric Cookbook and The Unofficial Simpsons Cookbook.
-She began writing for Simply Recipes in early .
-Read more Laurel Randolph Editor Wanda has been writing developing and photographing recipes since .
-Her love for food started early on as she watched her greatgrandmother create amazing masterpieces in the kitchen.
-Following in her grandmothers footsteps she started the food blog "Tried and True Bakes" and has been pursuing new flavors and culinary experiences ever since.
-After leaving her position in college admissions Wanda received her cooking certificate from Leiths School of Food and Wine and started a career in production.
-Read more Wanda Abraham Visual Editor Elise Bauer is the founder of SimplyRecipes.com.
-A blogging pioneer Elise first created Simply Recipes in  as a way to keep track of her familys recipes and over the years grew it into one of the most popular cooking websites in the world.
-Whether sharing recipes explaining cooking techniques or mentoring fellow bloggers Elise at heart is an educator and believes that by generously sharing what we know everyone benefits.
-Before diving into the food world she was a marketing executive in Silicon Valley for  years with Internet startups as well companies such as Apple and Symantec.
-Read more Elise Bauer Founder Eric is the senior vice president of Dotdash Merediths Food  Drink group.
-Before joining Dotdash Meredith in  Eric spent  years working in lifestyle media at Condé Nast where he led operations and finance for various brands including Epicurious  Gourmet  and Brides.com.
-Prior to Conde Nast he worked in the business department at the New York Press as well as in commercial and TV production.
-Eric is an avid home cook and lover of all things foodrelated.
-Although not professionally trained as a chef he has taken dozens of recreational cooking classes.
-His current food obsession is perfecting his sourdough to get that perfect light and airy crumb with a dark and crispy crust.
-Read more Eric Handelsman Senior Vice President Dotdash Meredith Food  Drink Alison is the Associate Product Director for Dotdash Meredith Food  Drink and joined the company in .
-Prior to joining Dotdash Meredith Alison worked as product manager at MyRecipes.com and CookingLight.com.
-She first began her career in product management at Time Inc. in the lifestyle media group working on Health.com.
-She studied at Lehigh University graduating with a B.A.
-in journalism and global studies.
-Read more Alison Mango Associate Product Director Dotdash Meredith Food  Drink Nick leads design for Simply Recipes and the Dotdash Food  Drink group.
-He joined Dotdash in  and has held several roles around the company since then.
-He got his start in print design making the switch to digital about a decade ago.
-Nick is focused on designing experiences that are both fun and easy to use.
-He received a BA from Flagler College in St. Augustine Florida.
-He recently moved to Charleston SC and when not working you can usually find him in the garden.
-Nick loves to try new things in the kitchen a few years ago he attempted to cook a Christmas goose for his extended family and while it was an utter disaster it was a good learning experience.
-Read more Nick Reiter Associate Design Director Dotdash Meredith Food  Drink About Dotdash Meredith Dotdash Meredith is the largest digital and print publisher in America.
-From mobile to magazines nearly  million people trust us to help them make decisions take action and find inspiration.
-Dotdash Merediths over  iconic brands include PEOPLE Better Homes  Gardens Verywell FOOD  WINE The Spruce Allrecipes Byrdie REAL SIMPLE Investopedia Southern Living and more.
-Dotdash Meredith Press Read  about Dotdash Meredith and our family of brands in the news.
-Meet Our Senior Management Team Learn more about the team behind Dotdash Meredith  here .
-Contact Us Have something youd like to let us know Whether you have a comment on a recipe or an idea to share we would love to hear from you  contact@simplyrecipes.com .
-For press inquiries email us at  contact@simplyrecipes.com .
-If you are contacting us regarding a job posting from Upwork or another job posting site  please be aware of fraudulent recruiters offering opportunities at Simply Recipes and Dotdash Meredith.
-Note that any correspondence with a member of the Simply Recipes or Dotdash Meredith recruiting team will come from a @ dotdash.com  or @simplyrecipes.com email address or through the Upwork messaging platform through Dotdash Merediths enterprise account.
-If you are in conversations for a job opportunity and wish to confirm its validity please reach out directly to  security@dotdash.com .
-For valid work opportunities with our site please see below.
-Work With Us Join our team of topnotch editors designers marketers and others as we continue to make a difference every day in the lives of Simply Recipes readers.
-View job openings Write for Us We are always on the lookout for new expert voices to join our team of recipe developers and writers.
-Please submit pitches along with three examples of your published work print or online and a brief bio to  write@simplyrecipes.com .
-We accept pitches for recipes howtos tips and techniquedriven posts.
-We do not accept pitches for travel writing restaurant reviews or dining out stories.
-Please review our site before pitching us.
-Please note that we do not accept unsolicited guest posts or articles.
-Advertise With Us Simply Recipes offers the highest value to advertisers through a combination of scale credibility and intent.
-Interested in advertising with us Email us at  advertise@dotdash.com  or check out our media kit to learn more.
-SimplyRecipes.com Sign up for our weekly newsletters Ready to cook Email Address Sign up There was an error.
-Please try again.
-Lets be friends Instagram Pinterest Facebook Twitter YouTube Recipes Quick  Easy In the Kitchen Buying Guides Holidays  Seasons About Us Advertise Terms of Use Careers Editorial Guidelines Privacy Policy Contact Do Not Sell My Personal Information Simply Recipes is part of the  Dotdash Meredith  publishing family.
-Google Tag Manager Testing End Google Tag Manager By clicking Accept All Cookies you agree to the storing of cookies on your device to enhance site navigation analyze site usage and assist in our marketing efforts.
-Cookies Settings   Accept All Cookies  Close Button   Close Button END
+New Relic Browser snippet  should be before everything else The design nodes specified the header path.
+Generally you can find this specified at etcdesignsSITEbasePageheader@header SDI include path contentfoodcomnavigationConfigsheaderjcrcontentheader.cache.html resourceType foodcomcomponentsnavigationheader Watch Full Seasons TV Schedule Newsletters Videos Sweepstakes Classes Magazine Blog Shows AZ Chefs AZ Restaurants Recipes on TV Recipes Recipes Mothers Day Dishes Comfort Food Recipes Ultimate Baking Guide Healthy Meals  More On TV See All Recipes Recipe of the Day Spaghetti with Oil and Garlic Aglio e Olio Trending Recipes Crispy PanFried Pork Chops Strawberry Ricotta Bruschetta Instant Pot Chicken Cacciatore Dump Dinner Mollys Carrot Cake with Spiced Cream Cheese Frosting Shows Shows TV Schedule See TV Schedule Valeries Home Cooking am  c Valeries Home Cooking am  c Valeries Home Cooking am  c Valeries Home Cooking am  c The Pioneer Woman am  c The Pioneer Woman am  c The Pioneer Woman am  c The Pioneer Woman am  c The Pioneer Woman pm  c The Pioneer Woman pm  c Guys Grocery Games pm  c Guys Grocery Games pm  c Tournament of Champions pm  c Guys Grocery Games pm  c Guys Grocery Games pm  c Guys Grocery Games pm  c Guys Grocery Games pm  c Guys Grocery Games pm  c On Tonight Guys Grocery Games pm  c Guys Grocery Games pm  c Guys Grocery Games am  c Guys Grocery Games am  c Guys Grocery Games am  c Guys Grocery Games am  c The Great Food Truck Race am  c See All Shows Popular Shows Ciao House Alex vs America Diners DriveIns and Dives In the Kitchen The Pioneer Woman The Kitchen Girl Meets Farm Chefs Chefs Chefs  Hosts Kardea Brown Ree Drummond Ina Garten Sunny Anderson Bobby Flay Valerie Bertinelli Guy Fieri Molly Yeh See All Chefs Trending Trending Trending Eats Newsletters The Latest TikToks Fruit RollUp Ice Cream Hack Lives Up to the Hype Just Eat the NonOrganic Blueberries – Heres Why You Should Disregard the ‘Dirty Dozen Jadeite Dishes Are Making a Comeback — Heres What You Need to Know About This Trend Currently Obsessed With... Taco Bell Brings Back Its Volcano Menu Which Includes the ‘Spiciest Burrito Ever Hydro Flask Wants You to Trade In Your Old Water Bottles Shop Shop Product Reviews Gift Ideas Shop Everything Newsletter Shop Now Whats New  Best Wine Glasses for Every Type of Drinker According to a Sommelier We Tried Caraways Cookware Set and It Lives Up to the Hype  Best Tequilas According to a Spirits Expert  Best Bento Boxes That Will Instantly Upgrade Your Packed Lunch The Best Compost Bins According to Gardeners and Farmers Sweepstakes Sweepstakes Spring Into Cooking All Sweepstakes  Contests Enter Daily for Your Chance to Win $ Whats on TV Clear Icon Search Icon Home Recipes Winter Weeknight Dinners Theres nothing better than cozying up on a chilly winter night with a good homecooked meal.
+These recipes make that possible — even on busy weeknights.
+Save Collection Pinterest Facebook Twitter Email Related To Winter Main Dish Chicken Marsala Photo By Armando Rafael Moutela  Television Food Network G.P.
+All Rights Reserved.
+Cooking Channel LLC.
+All Rights Reserved.
+Speedy Teriyaki Salmon Skirt Steak with Cheesy Mashed Potatoes Spaghetti alla Carbonara Photo By Armando Rafael Moutela  Television Food Network G.P.
+All Rights Reserved.
+Cooking Channel LLC.
+All Rights Reserved.
+FlaxseedCrusted Salmon with a Grape and Walnut Salsa Chicken Quesadillas Photo By Armando Rafael DijonTarragon Chicken Mashed Potatoes and Rainbow Chard Photo By Scott Gries Tomato Bisque Photo By Tara Donne  Television Food Network G.P.
+All Rights Reserved.
+Angel Hair with SunDried Tomatoes and Goat Cheese Photo By Armando Rafael Portuguese Chourico and Kale Soup Photo By Armando Rafael Taco Pockets Photo By Armando Rafael Moutela  Television Food Network G.P.
+All Rights Reserved.
+Cooking Channel LLC.
+All Rights Reserved.
+Fusilli with Sausage Artichokes and SunDried Tomatoes Photo By Armando Rafael Moutela  Television Food Network G.P.
+All Rights Reserved.
+Cooking Channel LLC.
+All Rights Reserved.
+Chicken Mug Pie Photo By Armando Rafael Chicken with Brussels Sprouts and Apple Cider Sauce Photo By RYAN DAUSCH Spaghetti and Meatballs Photo By Armando Rafael Chicken Sausage Pepper and Onion Pasta FakeBake Photo By Armando Rafael Chicken Provencal "Stoup" Photo By Armando Rafael Florentine Meatballs Photo By Armando Rafael  Television Food Network G.P.
+All Rights Reserved Sausage Beans and Broccoli Rabe Soup Crispy Cod with Lentils Chunky Chicken Chowder Steak with Blue Cheese Potatoes Photo By Christopher Testani Creamy Orzo with Mushrooms Photo By RYAN DAUSCH Sausage White Bean and Tortellini Soup Carne Asada Tacos with CarrotPepper Slaw Photo By Christopher Testani CarrotGinger Soup with Roasted Vegetables Photo By RYAN DAUSCH FourCheese Pasta with Peas and Ham Photo By Antonis Achilleos Winter Layered Salad with Beets and Brussels Sprouts Photo By Matt Armendariz  Television Food Network G.P.
+All Rights Reserved SlowCooker Chicken Curry Photo By RYAN DAUSCH Winter Minestrone Photo By Armando Rafael Moutela  Television Food Network G.P.
+All Rights Reserved.
+Cooking Channel LLC.
+All Rights Reserved.
+Pork with SweetandSour Squash Photo By RYAN DAUSCH SlowCooker Beef Paprikash Easy Chicken Curry with Vegetables French Onion Soup Photo By Tara Donne  Television Food Network G.P.
+All Rights Reserved.
+Rachaels Lemon Chicken Photo By Tara Donne Tara Donne Asian Marinated Pork Chops Photo By Armando Rafael Moutela  Television Food Network G.P.
+All Rights Reserved.
+Cooking Channel LLC.
+All Rights Reserved.
+Pork and Green Bean StirFry Photo By RYAN DAUSCH Salisbury Steak with Mushrooms Photo By Antonis Achilleos Baked Spinach Ravioli Photo By RYAN DAUSCH MapleGlazed Chicken Photo By Antonis Achilleos SlowCooker Pork with Noodles Photo By Antonis Achilleos MushroomGorgonzola Cream Sauce Flank Steak with Broccoli Mac and Cheese Photo By RYAN DAUSCH Thai Pork and Noodles Photo By Antonis Achilleos Chicken and Barley Soup Photo By RYAN DAUSCH Cuban BeefandPotato Sandwiches Photo By RYAN DAUSCH Shrimp and Avocado Burritos Photo By RYAN DAUSCH Spaghetti with Quick Turkey Chili Photo By Andrew Purcell Shepherds Pie Baked Potatoes Photo By RYAN DAUSCH Beef Stroganoff Photo By Pacific TV Chicken Marsala Tyler Florence cooks cremini mushrooms and prosciutto strips in the same skillet that the chicken is cooked in to keep the brown bits and caramelized pieces of the chicken in the overall dish.
+Get the Recipe Chicken Marsala Speedy Teriyaki Salmon Ree flavors quickcooking salmon fillets with storebought teriyaki sauce and serves them alongside microwave jasmine rice for a complete meal in a matter of minutes.
+Get the Recipe Speedy Teriyaki Salmon Skirt Steak with Cheesy Mashed Potatoes Skirt steak has a long flat shape so it only needs a few minutes per side to reach doneness.what to do with all that extra time Make cheesy mashed potatoes from scratch — and get dinner on the table in well under an hour.
+Get the Recipe Skirt Steak with Cheesy Mashed Potatoes Spaghetti alla Carbonara Eggs and Parmesan cheese act as a thickener to make a creamy sauce for this pasta.
+The eggs will cook as the mixture is stirred into the hot spaghetti.
+To thin out the sauce add a bit of reserved pasta water.
+Get the Recipe Spaghetti alla Carbonara FlaxseedCrusted Salmon with a Grape and Walnut Salsa How many superfoods can you pack into one quickandeasy meal This delicious weeknight dinner has four walnuts flaxseed raw honey and salmon.
+Get the Recipe FlaxseedCrusted Salmon with a Grape and Walnut Salsa Chicken Quesadillas These quesadillas are one of Rees familys favorite dinners.
+And lets be honest When its cold out all you really need is something cheesy and carby full of quick weeknight comfort.
+Get the Recipe Chicken Quesadillas DijonTarragon Chicken Mashed Potatoes and Rainbow Chard You wont beleive how much flavor is packed into this minute meal.
+Bold ingredients like garlic white wine Dijon mustard fresh tarragon and bacon work together to create a chicken dinner thats sweet saovry and wellseasoned.
+Get the Recipe DijonTarragon Chicken Mashed Potatoes with Brie or Camembert and Rainbow Chard with Bacon and Leeks Tomato Bisque By incorporating heavy cream minced bacon and spices its easy to transform a can of tomatoes into a silky soup.
+Get the Recipe Tomato Bisque Angel Hair with SunDried Tomatoes and Goat Cheese Sundried tomatoes lend intense savoriness to Giadas pasta dinner and punctured by the saltysharpness of fresh goat cheese its ready in just  minutes.
+Get the Recipe Angel Hair with Sundried Tomatoes and Goat Cheese Portuguese Chourico and Kale Soup "This recipe is a quick version of a wonderful soup I had in Mystic Conn. a Portuguese community nestled by the sea in New England" Rachael says.
+"This soup is a winter wonder."
+Get the Recipe Portuguese Chourico and Kale Soup Taco Pockets Rachael adds onions directly into beef patties so they keep a little bit of extra moisture.
+Turning the lean meat and traditional taco seasonings into patties makes the finished dish much easier to eat in a soft tortilla wrap.
+Get the Recipe Taco Pockets Fusilli with Sausage Artichokes and SunDried Tomatoes Bring big flavor to a simple pasta dish by loading it up with spicy Italian sausage fresh herbs artichoke hearts and sundried tomatoes packed in oil.
+Get the Recipe Fusilli with Sausage Artichokes and SunDried Tomatoes Chicken Mug Pie Rachaels minute take on chicken pot pie is made even cuter and more convenient by being served in mugs with handles.
+Get the Recipe Chicken Mug Pie Chicken with Brussels Sprouts and Apple Cider Sauce Put your oven to work during the week with this simple roast chicken recipe.
+Chicken breasts cook in apple cider soaking up tons of flavor while a fruit and veggie medley cooks on another rack simultaneously.
+Get the Recipe Chicken and Brussels Sprouts with Apple Cider Sauce Spaghetti and Meatballs Can you believe Rachaels spaghetti and meatballs are ready in just  minutes Get the Recipe Spaghetti and Meatballs Chicken Sausage Pepper and Onion Pasta FakeBake Rachaels minute pasta "fakebake" is prepared primarily on the stove and then thrown under the broiler at the very end just until the cheese melts.
+Get the Recipe Chicken Sausage Pepper and Onion Pasta FakeBake Chicken Provencal "Stoup" A "stoup" is thicker than soup and thinner than stew — and best of all a onepot meal.
+Get the Recipe Chicken Provencal "Stoup" Florentine Meatballs Drizzle spinachpacked turkey meatballs in a creamy provolone cheese sauce for a delectable update on meatball night thats ready to go in  minutes.
+Get the Recipe Florentine Meatballs Sausage Beans and Broccoli Rabe Soup It takes just  minutes to make Rachaels soup a comforting recipe simmered with sweet Italian sausage and perfect for rainy days.
+Get the Recipe Sausage Beans and Broccoli Rabe Soup Crispy Cod with Lentils Precooked lentils are the key to this quickanddelicious dinner.
+If you cant find them at your local supermarket try cooking them over the weekend and storing them in the refigerator until youre ready to use them.
+Get the Recipe Crispy Cod with Lentils Chunky Chicken Chowder Before transforming it into a warming soup with potatoes corn and heavy cream brown the chicken in the pot to add intense savory flavor.
+Get the Recipe Chunky Chicken Chowder Steak with Blue Cheese Potatoes Baked potatoes stuffed with blue cheese sour cream and chopped herbs are the perfect accompaniment to a substantial steak meal.
+Get the Recipe Steak With Blue Cheese Potatoes Creamy Orzo with Mushrooms Who has time for risotto on weeknights This creamy pasta dish is an ideal shortcut for any risottolover looking for a quick cheesy vegetarian version.
+Get the Recipe Creamy Orzo with Mushrooms Sausage White Bean and Tortellini Soup Use storebought pesto canned beans and tortellini to cut down on time.
+Get the Recipe Sausage White Bean and Tortellini Soup Carne Asada Tacos with CarrotPepper Slaw It doesnt take long to grill sirloin steaks for carne asada tacos.
+Shred carrots and grate bell peppers for an easy crunchy slaw.
+Get the Recipe Grilled Steak Tacos with Carrot Pepper Slaw CarrotGinger Soup with Roasted Vegetables Add a can of beans to vegetable purees like we did here.
+It adds fiber and makes the soup extra filling.
+Get the Recipe CarrotGinger Soup with Roasted Vegetables FourCheese Pasta with Peas and Ham Creamy pasta plus ham and cheeese equals a meal that will please the whole family.
+Get the Recipe FourCheese Pasta With Peas and Ham Winter Layered Salad with Beets and Brussels Sprouts Layered is the new chopped Weve taken winters best vegetables and gone vertical for this colorful salad.
+We love the tenderchewy barley but it can be swapped out for your favorite whole grain like brown rice or quinoa.
+Get the Recipe Winter Layered Salad with Beets and Brussels Sprouts SlowCooker Chicken Curry Start this Thaistyle curry in the morning and finish it off with a garnish of peanuts cilantro and lime after work for a stressfree dinner.
+Get the Recipe SlowCooker Chicken Curry Winter Minestrone Pureed cannellini beans with beef broth add a creaminess to this hearty soup and whole cannellini beans add another layer of texture.
+Giada De Laurentiis secret weapon in this recipe is a frozen Parmesan rind It melts slowly and adds a salty buttery flavor to the soup.
+Get the Recipe Winter Minestrone Pork with SweetandSour Squash Make the most of seasonal squash with this simple pork dinner.
+Youll roast butternut squash to bring out the sweet flavors and add capers for a touch of briny salt.
+Get the Recipe Pork with SweetandSour Squash SlowCooker Beef Paprikash The lowandslow option makes perfect sense for a workday — eight hours later and dinner is served Get the Recipe Slow Cooker Beef Paprikash Easy Chicken Curry with Vegetables Even the pickiest kids will love Melissas Easy Chicken Curry with Vegetables.
+Bulking up the curry with broccoli and carrots stretches the chicken breasts even further.
+Get the Recipe Easy Chicken Curry with Vegetables French Onion Soup Layered with brandy dry sherry and sweet onions Ina Gartens soup staple is best soaked up with crusty bread.
+Get the Recipe French Onion Soup Rachaels Lemon Chicken Turn your dinner into a takeoutinspired meal at home with Rachael Rays chicken dish.
+Get the Recipe Lemon Chicken Asian Marinated Pork Chops Make your own panAsian fusion dinner on a budget with Melissa dArabian.
+Panroast the pork chops to a juicy perfection and serve with an orange glaze.
+Use a combination of easytofind ingredients plus a few specialty items from the international aisle in your supermarket.
+Get the Recipe Asian Marinated Pork Chops Pork and Green Bean StirFry Food Network Magazines version of this takeout favorite calls for half a jalapeno pepper to add some heat to the dish.
+Get the Recipe Pork and Green Bean StirFry with Ginger Cilantro and Mint Salisbury Steak with Mushrooms Smother ground beef and sage patties with a mixed mushroom sauce and serve with buttered egg noodles.
+Get the Recipe Salisbury Steak With Mushrooms Baked Spinach Ravioli Turn refrigerated ravioli into a creamy cheesy dinner thats ready to eat in just  minutes.
+Get the Recipe Baked Spinach Ravioli MapleGlazed Chicken Toss chicken with apples and maple syrup for a delicious dinner thats ready in just  minutes.
+Get the Recipe MapleGlazed Chicken SlowCooker Pork with Noodles On a chilly night theres nothing better than a warming bowl of Asianstyle soup loaded with rice noodles bok choy and tender pork.
+Get the Recipe SlowCooker Pork With Noodles MushroomGorgonzola Cream Sauce Heavy cream and gorgonzla add rich hearty flavor to this mushroombased sauce.
+Get the Recipe MushroomGorgonzola Cream Sauce Flank Steak with Broccoli Mac and Cheese Make your own mac and cheese for the kids with this shortcut recipe — all you need is milk and a few slices of American cheese Get the Recipe Flank Steak with Broccoli Mac and Cheese Thai Pork and Noodles Skip the restaurant and make these Thai rice noodles that are mixed with pork chops.
+The secret ingredient Brown sugar.
+Get the Recipe Thai Pork and Noodles Chicken and Barley Soup Chicken soup always hits the spot on a chilly day.
+This one calls for hearty barley for something more filling.
+Get the Recipe Chicken and Barley Soup Cuban BeefandPotato Sandwiches Have your meat and potatoes between the bread for a hearty weeknight meal thats ready in just  minutes.
+Get the Recipe Cuban BeefandPotato Sandwiches Shrimp and Avocado Burritos Sometimes you need fresher flavors to break up hearty comfort food during the winter months.
+These burritos are packed with shrimp and fresh avocado for lighter flavors that are still filling.
+Get the Recipe Shrimp and Avocado Burritos Spaghetti with Quick Turkey Chili Turn ground turkey into an easy chili and serve over spaghetti for dinner thats done in just  minutes.
+Get the Recipe Spaghetti With Quick Turkey Chili Shepherds Pie Baked Potatoes Skip the oversized casserole and turn shepherds pie into a more individual affair.
+Youll top each baked potato with all the classic ingredients and broil them until the cheese is perfectly melted.
+Get the Recipe Cottage Pie Baked Potatoes Beef Stroganoff This retro stroganoff brings Ree back to her childhood in the s. It may be a vintage flavor but your family will love it — and youll love that its ready to eat in just  minutes Get the Recipe Beef Stroganoff More from Winter Weeknight Dinners Next Up Easy Winter Side Dish Recipes  Photos Winter Desserts from the Pantry  Photos Winter Weeknight Dinners in Under an Hour  Photos  Winter Iced Teas and Punches  Photos  Ways to Eat Fresh Snow  Photos Winter Desserts in Under an Hour  Photos  Spring Weeknight Dinners Everyone Will Love  Photos Minute Dinner Recipes Thatll Save Your Weeknights  Photos Weeknight Dinners in  Minutes or Less  Photos  Mouthwatering Grilled Dinner Ideas  Photos We Recommend Minute Dinner Recipes Thatll Save Your Weeknights  Photos Our Best Sheet Pan Recipes  Photos  Christmas Dinner Recipes to Fill Your Table  Photos  Easy Elegant Holiday Appetizer Recipes  Photos The Best Recipes from Giadas Holiday Handbook  Photos  Weeknight Dinners the Whole Family Will Love  Photos to include this file in an jsp use the following cqinclude script"brightEdge.html" If need to hardcode pagePath use this pagePathoutdoorsoutdoorremodelpatiogazeboscountry Site Map Visitor Agreement AdChoices Privacy Notice About Newsroom Advertise Help TV Ratings Online Closed Captioning California Privacy Notice Accessibility Newsletters Discovery Inc. Do Not Sell or Share My Personal Information International Editions United States Asia Brazil Canada Europe Middle East  Africa United Kingdom Latin America The Discovery Family of Networks HGTV Food.com Travel Channel TLC.com Discovery.com Cooking Channel    Warner Bros.
+Discovery Inc. or its subsidiaries and affiliates.
+All rights reserved.
+Pinterest Facebook Twitter Email OneTrust Cookies Consent Notice start OneTrust Cookies Consent Notice end

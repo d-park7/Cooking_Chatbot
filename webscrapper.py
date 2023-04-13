@@ -16,6 +16,12 @@ from nltk import word_tokenize
 from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords
 
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+}
+
+
 # Function to build the knowledge base
 def build_kb(sig_terms):
     # Create dictionary with empty list
@@ -199,16 +205,40 @@ def web_crawler(link):
             #         f.write(link_str + '\n')
             f.write(link_str + '\n')
 
+
+def find_op_comments_from_url(unique_links_to_crawl):
+    with open(unique_links_to_crawl, 'r') as file:
+        links = file.readlines()
+        for link in links:
+            reqs = requests.get(link, headers=HEADERS)
+            data = reqs.text
+            soup = BeautifulSoup(data, features='lxml')
+            
+            # finds the op
+            main_post = soup.find('div', id='siteTable')
+            op = main_post.find('a', attrs={'class': 'author'}).text
+
+            users = soup.find_all('p', class_='tagline') 
+            for user in users:
+                children = user.findChildren('a')
+                for child in children:
+                    print('child: ', child.text)
+
+            print('op: ', op)
+
+
 if __name__ == '__main__':
     link_to_crawl = 'https://old.reddit.com/r/recipes/'
 
     # Functions to web crawl, create files, and print out term frequencies of each file
-    web_crawler(link_to_crawl)
-    remove_dupes()
-    get_url_text()
-    scrape_url()
-    print_file_terms()
+    # web_crawler(link_to_crawl)
+    # remove_dupes()
+    # get_url_text()
+    # scrape_url()
+    # print_file_terms()
 
+    find_op_comments_from_url('unique_urls.txt')
+    
     # 10 important terms from all files
     sig_terms = ['recipe', 'chicken', 'cheese', 'shrimp', 'food', 'soup', 'beef', 'dinner', 'cake', 'bread']
 

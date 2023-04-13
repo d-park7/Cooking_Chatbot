@@ -127,6 +127,7 @@ def get_url_text():
 
     with open('unique_urls.txt', 'r') as uu:
         urls = uu.readlines()
+        print("This is the list of urls:", urls)
 
         for link in urls:
             url_link = link
@@ -140,8 +141,8 @@ def get_url_text():
 
             # Tries to open url, otherwise gives up and goes to next url
             try:
-                html = urllib.request.urlopen(url_link, timeout=15)
-                soup = BeautifulSoup(html, features="html.parser")
+                html = urllib.request.urlopen(url_link, timeout=60)
+                soup = BeautifulSoup(html, features="lxml")
                 data = soup.findAll(string=True)
                 result = filter(visible, data)
                 temp_list = list(result)
@@ -180,23 +181,24 @@ def web_crawler(link):
     r = requests.get(link)
 
     data = r.text
-    soup = BeautifulSoup(data, features="html.parser")
+    soup = BeautifulSoup(data, features="lxml")
 
     # Writes urls to a urls.txt file
     with open('urls.txt', 'w') as f:
-        for link in soup.find_all('a'):
+        for link in soup.find_all('a', class_='bylink comments may-blank'):
             link_str = str(link.get('href'))
-            if 'Recipe' in link_str or 'recipe' in link_str:
-                if link_str.startswith('/url?q='):
-                    link_str = link_str[7:]
-                if '&' in link_str:
-                    i = link_str.find('&')
-                    link_str = link_str[:i]
-                if link_str.startswith('http') and 'google' not in link_str:
-                    f.write(link_str + '\n')
+            # if 'Recipe' in link_str or 'recipe' in link_str:
+            #     if link_str.startswith('/url?q='):
+            #         link_str = link_str[7:]
+            #     if '&' in link_str:
+            #         i = link_str.find('&')
+            #         link_str = link_str[:i]
+            #     if link_str.startswith('http') and 'google' not in link_str:
+            #         f.write(link_str + '\n')
+            f.write(link_str + '\n')
 
 if __name__ == '__main__':
-    link_to_crawl = "https://www.google.com/search?q=recipe&sxsrf=APwXEdcDmMo3SWbYW8v0aiOiORGWqkpsoQ%3A1681266908574&ei=3Bg2ZLSwIpK5qtsPjKmG2Ao&oq=recipie&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgCMgQIIxAnMgoIABCABBAUEIcCMgcIABCABBAKMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoICAAQigUQkQI6EAgAEIAEEBQQhwIQsQMQgwE6CAgAEIAEELEDSgQIQRgAUMUDWKQFYIcfaAFwAXgAgAFTiAGZAZIBATKYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp"
+    link_to_crawl = 'https://old.reddit.com/r/recipes/'
 
     # Functions to web crawl, create files, and print out term frequencies of each file
     web_crawler(link_to_crawl)
@@ -206,7 +208,7 @@ if __name__ == '__main__':
     print_file_terms()
 
     # 10 important terms from all files
-    sig_terms = ['recipe', 'chicken', 'cheese', 'shrimp', 'food', 'soup', 'beef', 'dinner', 'chocolate', 'bread']
+    sig_terms = ['recipe', 'chicken', 'cheese', 'shrimp', 'food', 'soup', 'beef', 'dinner', 'cake', 'bread']
 
     # Creating the knowledge base
     knowledge_base = build_kb(sig_terms)

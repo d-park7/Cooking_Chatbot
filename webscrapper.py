@@ -10,6 +10,7 @@ import re
 import urllib.request
 import requests
 import json
+import time
 from bs4 import BeautifulSoup
 from nltk import word_tokenize
 from nltk.tokenize import sent_tokenize
@@ -127,7 +128,6 @@ def get_url_text():
 
     with open('unique_urls.txt', 'r') as uu:
         urls = uu.readlines()
-        print("This is the list of urls:", urls)
 
         for link in urls:
             url_link = link
@@ -141,7 +141,7 @@ def get_url_text():
 
             # Tries to open url, otherwise gives up and goes to next url
             try:
-                html = urllib.request.urlopen(url_link, timeout=60)
+                html = urllib.request.urlopen(url_link, timeout=180)
                 soup = BeautifulSoup(html, features="lxml")
                 data = soup.findAll(string=True)
                 result = filter(visible, data)
@@ -154,6 +154,8 @@ def get_url_text():
                 with open(file_name, 'w', encoding="utf-8") as f:
                     f.write(temp_str)
 
+                # too many requests if process doesn't sleep, 5 secs is the magic number
+                time.sleep(5)
             except:
                 print("ERROR: reading timed out leaving unfinished text")
                 continue

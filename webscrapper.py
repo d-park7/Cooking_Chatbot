@@ -25,9 +25,12 @@ HEADERS = {
 # Function to build the knowledge base
 def build_kb(r_list):
     
-    with open('knowledgebase.txt', 'a', encoding='utf-8') as file:
-        #for recipe in r_list:
-        file.writelines(r_list)
+    for dict in r_list:
+        for key, value in dict.items():
+            kb_name = str(key) + ".txt"
+            
+            with open(kb_name, 'a', encoding='utf-8') as file:
+                file.writelines(value)
             
 
 '''def build_kb(sig_terms):
@@ -168,7 +171,7 @@ def get_url_text():
                     f.write(temp_str)
 
                 # too many requests if process doesn't sleep, 5 secs is the magic number
-                time.sleep(5)
+                time.sleep(7)
             except:
                 print("ERROR: reading timed out leaving unfinished text")
                 continue
@@ -193,7 +196,7 @@ def remove_dupes():
 
 # Function to webcrawl given a link
 def web_crawler(link):
-    r = requests.get(link)
+    r = requests.get(link, headers=HEADERS)
 
     data = r.text
     soup = BeautifulSoup(data, features="lxml")
@@ -203,7 +206,8 @@ def web_crawler(link):
     with open('urls.txt', 'w') as f:
         for link in soup.find_all('a', class_='bylink comments may-blank'):
             link_str = str(link.get('href'))
-            f.write(link_str + '\n')
+            if "mod_psa" not in link_str:
+                f.write(link_str + '\n')
 
 
 def find_op_comments_from_url(unique_links_to_crawl):
@@ -218,6 +222,7 @@ def find_op_comments_from_url(unique_links_to_crawl):
             main_post = soup.find('div', id='siteTable')
             op = main_post.find('a', attrs={'class': 'author'}).text
             title = main_post.find('a',attrs={'class':'title'}).text
+            print(title)
             comment_area = soup.find('div', attrs={'class':'commentarea'})
             comments = comment_area.find_all('div', attrs={'class':'entry unvoted'})
 
@@ -230,39 +235,41 @@ def find_op_comments_from_url(unique_links_to_crawl):
                         comment_text = comment.find('div',attrs={'class':'md'}).text
                         extracted_comments.append(comment_text)
 
-
             # Get the comment about the recipe
             recipe_comment = extracted_comments[0]
 
             for x in range(len(extracted_comments)):
                 if len(recipe_comment) < len(extracted_comments[x]):
                     recipe_comment = extracted_comments[x]
-            recipe_list.append(recipe_comment)
+            recipe_list.append({title:recipe_comment})
 
-            #print(recipe_comment)
     return recipe_list
 
 
 if __name__ == '__main__':
     link_to_crawl = 'https://old.reddit.com/r/recipes/'
-
-    # Functions to web crawl, create files, and print out term frequencies of each file
-    # web_crawler(link_to_crawl)
-    # remove_dupes()
-    # get_url_text()
-    # scrape_url()
-    # print_file_terms()
-
-    recipe_list = find_op_comments_from_url('unique_urls.txt')
-    print('recipe_list: ', recipe_list)
     
+    web_crawler(link_to_crawl)
+    remove_dupes()
+
+    time.sleep(3)
+    recipe_list = find_op_comments_from_url('unique_urls.txt')
+
+    # Creating the knowledge base
+    build_kb(recipe_list)
+    
+    ### NOT NEEDED
+    # Functions to web crawl, create files, and print out term frequencies of each file
+    #get_url_text()
+    #scrape_url()
+    #print_file_terms()
+
     # 10 important terms from all files
     #sig_terms = ['recipe', 'chicken', 'cheese', 'shrimp', 'food', 'soup', 'beef', 'dinner', 'cake', 'bread']
 
     # Creating the knowledge base
     #knowledge_base = build_kb(sig_terms)
     #knowledge_base = build_kb(recipe_list)
-    build_kb(recipe_list)
 
     # Printing keys of knowledge base
     #print("")

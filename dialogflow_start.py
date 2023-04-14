@@ -4,6 +4,7 @@
 
 from google.cloud import dialogflow_v2beta1 as dialogflow
 from dotenv import dotenv_values 
+import os
 
 
 config = dotenv_values(".env")
@@ -51,9 +52,6 @@ def create_document(
             http://mypage.com/faq.html."""
 
     client = dialogflow.DocumentsClient()
-    knowledge_base_path = dialogflow.KnowledgeBasesClient.knowledge_base_path(
-        project_id, knowledge_base_id
-    )
 
     with open(content_uri, 'rb') as file:
         document = dialogflow.Document(
@@ -88,5 +86,20 @@ def list_intents(project_id):
 
 if __name__ == '__main__':
     #list_intents(PROJECT_ID)
-    response = create_knowledge_base(project_id=PROJECT_ID, display_name='test')
-    create_document(project_id=PROJECT_ID, knowledge_base_id=response.name, display_name=response.display_name, mime_type='text/plain', knowledge_type='EXTRACTIVE_QA', content_uri='knowledgebase.txt')
+    #response = create_knowledge_base(project_id=PROJECT_ID, display_name='Test2 Reddit_Recipes')
+    # cwd = os.getcwd()
+    # entries = os.scandir(cwd)
+    # for val in entries:
+    #     if val.is_file():
+    #         if val.name.find('.txt') > 0:
+    #             if val.name != 'unique_urls.txt' and val.name != 'urls.txt':
+    # create_document(project_id=PROJECT_ID, knowledge_base_id=response.name, display_name='Spanakorizo Ingredients', mime_type='text/plain', knowledge_type='EXTRACTIVE_QA', content_uri='Spanakorizo Ingredients.txt')
+
+    response = create_knowledge_base(project_id=PROJECT_ID, display_name='Reddit_Recipes')
+    cwd = os.getcwd()
+    entries = os.scandir(cwd)
+    for val in entries:
+        if val.is_file():
+            if val.name.find('.txt') > 0:
+                if val.name != 'unique_urls.txt' and val.name != 'urls.txt':
+                    create_document(project_id=PROJECT_ID, knowledge_base_id=response.name, display_name=val.name, mime_type='text/plain', knowledge_type='EXTRACTIVE_QA', content_uri=val.name)

@@ -28,7 +28,6 @@ def build_kb(r_list):
     for dict in r_list:
         for key, value in dict.items():
             kb_name = str(key) + ".txt"
-            
             with open(kb_name, 'a', encoding='utf-8') as file:
                 file.writelines(value)
             
@@ -247,12 +246,12 @@ def find_op_comments_from_url(unique_links_to_crawl):
 
 
 if __name__ == '__main__':
-    link_to_crawl = 'https://old.reddit.com/r/recipes/'
+    # link_to_crawl = 'https://old.reddit.com/r/recipes/'
     
-    web_crawler(link_to_crawl)
-    remove_dupes()
+    # web_crawler(link_to_crawl)
+    # remove_dupes()
 
-    time.sleep(3)
+    # time.sleep(3)
     recipe_list = find_op_comments_from_url('unique_urls.txt')
 
     # Creating the knowledge base

@@ -23,7 +23,14 @@ HEADERS = {
 
 
 # Function to build the knowledge base
-def build_kb(sig_terms):
+def build_kb(r_list):
+    
+    with open('knowledgebase.txt', 'a', encoding='utf-8') as file:
+        #for recipe in r_list:
+        file.writelines(r_list)
+            
+
+'''def build_kb(sig_terms):
     # Create dictionary with empty list
     built_base = {x: [] for x in sig_terms}
 
@@ -42,7 +49,7 @@ def build_kb(sig_terms):
         file_num += 1
         doc_name = "URL " + str(file_num) + ".txt"
 
-    return built_base
+    return built_base'''
 
 # Private function to get the significant terms
 def _get_sig_terms(file):
@@ -202,25 +209,39 @@ def web_crawler(link):
 def find_op_comments_from_url(unique_links_to_crawl):
     with open(unique_links_to_crawl, 'r') as file:
         links = file.readlines()
+        recipe_list = list()
         for link in links:
             reqs = requests.get(link, headers=HEADERS)
             data = reqs.text
             soup = BeautifulSoup(data, features='lxml')
             
-
             main_post = soup.find('div', id='siteTable')
             op = main_post.find('a', attrs={'class': 'author'}).text
-            print('op: ', op)
-            
+            title = main_post.find('a',attrs={'class':'title'}).text
             comment_area = soup.find('div', attrs={'class':'commentarea'})
-
             comments = comment_area.find_all('div', attrs={'class':'entry unvoted'})
-            for comment in comments:
-                comment = str(comment)
-                index = comment.find(op)
-                if index != -1:
-                    print('comment: ', comment)
-                    
+
+            # Get all comments from the original poster and store into list
+            extracted_comments = []
+            for comment in comments: 
+                if comment.find('form'):
+                    commenter = comment.find('a',attrs={'class':'author'}).text
+                    if op == commenter:
+                        comment_text = comment.find('div',attrs={'class':'md'}).text
+                        extracted_comments.append(comment_text)
+
+
+            # Get the comment about the recipe
+            recipe_comment = extracted_comments[0]
+
+            for x in range(len(extracted_comments)):
+                if len(recipe_comment) < len(extracted_comments[x]):
+                    recipe_comment = extracted_comments[x]
+            recipe_list.append(recipe_comment)
+
+            #print(recipe_comment)
+    return recipe_list
+
 
 if __name__ == '__main__':
     link_to_crawl = 'https://old.reddit.com/r/recipes/'
@@ -232,20 +253,23 @@ if __name__ == '__main__':
     # scrape_url()
     # print_file_terms()
 
-    find_op_comments_from_url('unique_urls.txt')
+    recipe_list = find_op_comments_from_url('unique_urls.txt')
+    print('recipe_list: ', recipe_list)
     
     # 10 important terms from all files
-    sig_terms = ['recipe', 'chicken', 'cheese', 'shrimp', 'food', 'soup', 'beef', 'dinner', 'cake', 'bread']
+    #sig_terms = ['recipe', 'chicken', 'cheese', 'shrimp', 'food', 'soup', 'beef', 'dinner', 'cake', 'bread']
 
     # Creating the knowledge base
-    knowledge_base = build_kb(sig_terms)
+    #knowledge_base = build_kb(sig_terms)
+    #knowledge_base = build_kb(recipe_list)
+    build_kb(recipe_list)
 
     # Printing keys of knowledge base
-    print("")
-    print(knowledge_base.keys())
+    #print("")
+    #print(knowledge_base.keys())
 
-    with open('knowledgebase.txt', 'w') as file:
-        file.write(json.dumps(knowledge_base))
+    #with open('knowledgebase.txt', 'w') as file:
+    #    file.write(json.dumps(knowledge_base))
 
     # Commented out because the dictionary is HUGE
     #for x, y in knowledge_base.items():

@@ -28,6 +28,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+
+# NLP function that needs to be implemented
+# The goal of this nlp is to grab the food items from the user data queries
+# Then output some or all of those food items back to the user 
 def find_food_items(food_list):
     food = wn.synset('food.n.02')
     test = list(set([w for s in food.closure(lambda s:s.hyponyms()) for w in s.lemma_names()]))

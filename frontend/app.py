@@ -9,7 +9,7 @@ import pickle
 from nltk.corpus import wordnet as wn
 
 
-config = dotenv.dotenv_values("../frontend/.env")
+config = dotenv.dotenv_values("../.env")
 PROJECT_ID = config['PROJECT_ID']
 '''test_dict = {
     "david":
@@ -32,19 +32,23 @@ def index():
 # NLP function that needs to be implemented
 # The goal of this nlp is to grab the food items from the user data queries
 # Then output some or all of those food items back to the user 
-def find_food_items(food_list):
+def find_food_items(user_queries):
     food = wn.synset('food.n.02')
-    test = list(set([w for s in food.closure(lambda s:s.hyponyms()) for w in s.lemma_names()]))
-    for food in test:
-        if 'salmon' in food:
-            print('found')
+    food_base = list(set([w for s in food.closure(lambda s:s.hyponyms()) for w in s.lemma_names()]))
+
+    food_list = list()
+    for food in food_base:
+        for text in user_queries:
+            if text == food:
+                print('found: ', text)
+                food_list.append(food)
+    return food_list
+
 
 
 # run Flask app
 if __name__ == "__main__":
     app.run()
-    
-
 
 
 # this function will only fire once the webhook is called.
@@ -53,16 +57,15 @@ if __name__ == "__main__":
 @app.route('/webhook', methods=['POST'])
 def webhook():
     data = request.get_json()
-    print('webhook(): ')
-    
-    print(data)
     user_query = data['queryResult']['queryText']
     
-    # pickle function
     user_data = load_user_info()
+    print('user data webhook(): ', user_data)
     
     if user_query in user_data:
-        fulfillment_text = "welcome back david! Here is a list of some ingredients you have searched for previously:"
+        user_food_list = find_food_items(user_data[user_query]['queries'])
+        user_name = user_data[user_query]['name']
+        fulfillment_text = f"welcome back {user_name}! Here is a list of some ingredients you have searched for previously: {user_food_list}"
         webhook_response = {
             "fulfillmentText": fulfillment_text,
             "outputContexts": [
@@ -125,8 +128,8 @@ def send_message():
     
     # changes .env file dynamically for CURRENT_USER
     if user_name != '':
-        dotenv.set_key("../frontend/.env", "CURRENT_USER", user_name)
-    config = dotenv.dotenv_values("../frontend/.env")
+        dotenv.set_key("../.env", "CURRENT_USER", user_name)
+    config = dotenv.dotenv_values("../.env")
     current_user = config['CURRENT_USER']
     print('current user: ', current_user)
 

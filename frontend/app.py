@@ -9,9 +9,9 @@ import pickle
 from nltk.corpus import wordnet as wn
 
 
-config = dotenv.dotenv_values("../.env")
+config = dotenv.dotenv_values("../frontend/.env")
 PROJECT_ID = config['PROJECT_ID']
-test_dict = {
+'''test_dict = {
     "david":
         {
             "name": "david",
@@ -19,7 +19,7 @@ test_dict = {
             "queries": [],
             "food_item": []
         }
-}
+}'''
 
 
 app = Flask(__name__)
@@ -59,10 +59,9 @@ def webhook():
     user_query = data['queryResult']['queryText']
     
     # pickle function
-    #user_data = load_user_info()
+    user_data = load_user_info()
     
-    
-    if user_query in test_dict:
+    if user_query in user_data:
         fulfillment_text = "welcome back david! Here is a list of some ingredients you have searched for previously:"
         webhook_response = {
             "fulfillmentText": fulfillment_text,
@@ -105,7 +104,7 @@ def send_message():
     project_id = PROJECT_ID
     
     # pickle function
-    # user_data = load_user_info()
+    user_data = load_user_info()
 
     response = detect_intent_texts(project_id, "unique", message, 'en')
     json_response = MessageToJson(response._pb)
@@ -126,13 +125,13 @@ def send_message():
     
     # changes .env file dynamically for CURRENT_USER
     if user_name != '':
-        dotenv.set_key("../.env", "CURRENT_USER", user_name)
-    config = dotenv.dotenv_values("../.env")
+        dotenv.set_key("../frontend/.env", "CURRENT_USER", user_name)
+    config = dotenv.dotenv_values("../frontend/.env")
     current_user = config['CURRENT_USER']
     print('current user: ', current_user)
 
     age = find_age(json_response)
-    if current_user not in test_dict:
+    if current_user not in user_data:
         print('current user: ', current_user)
         new_user = {
             "name": current_user,
@@ -140,14 +139,16 @@ def send_message():
             "queries": [],
             "food_item": []
         }
-        test_dict[current_user] = new_user
-        print('inside if user data is : ', test_dict)
-        # save_user_info(user_data)
-    elif current_user in test_dict:
-        print('elif: ', test_dict[current_user])
-        test_dict[current_user]['age'] = age
-        test_dict[current_user]['queries'].append(message)
-        print('inside elif: ', test_dict)
+        user_data[current_user] = new_user
+        print('inside if user data is : ', user_data)
+        save_user_info(user_data)
+    elif current_user in user_data:
+        print('elif: ', user_data[current_user])
+        if age:
+            user_data[current_user]['age'] = age
+        user_data[current_user]['queries'].append(message)
+        print('inside elif: ', user_data)
+        save_user_info(user_data)
 
     response_text = { "message":  response.query_result.fulfillment_text}
     return jsonify(response_text)
